@@ -1,0 +1,44 @@
+name: event_planning
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.1
+
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.8
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
+  google_fonts: ^8.2.1
+  introduction_screen: ^4.0.0
+  flutter_lints: ^6.0.0
+  build_runner: ^2.4.0
+  flutter_gen_runner: ^5.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+flutter_gen:
+  output: lib/utils/assets_manager.dart
+  line_length: 80
